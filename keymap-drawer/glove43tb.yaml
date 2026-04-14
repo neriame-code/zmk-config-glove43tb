@@ -80,13 +80,13 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   SYMBOL_NUM:
   - LCTRL
@@ -149,7 +149,7 @@ layers:
   - Ctl+F
   - F2
   - ''
-  - Sft+AltGr+TAB
+  - Ctl+PAGE UP
   - LEFT
   - DOWN
   - UP ARROW
@@ -160,8 +160,8 @@ layers:
   - Ctl+C
   - Ctl+V
   - ''
-  - ''
-  - ''
+  - Sft+Alt+TAB
+  - Ctl+PAGE DOWN
   - Ctl+LEFT
   - Ctl+DOWN
   - Ctl+UP ARROW
@@ -176,5 +176,47 @@ layers:
   - ''
   - {type: held}
   - ''
-  MOUSE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', PAGE UP, '&mkp MB1', '&mkp MB3', '&mkp MB2', '', '', '', '', '', '', '', '', PAGE DOWN,
-    '', '', '', '', '', '', '', '', '', '', '', '', '']
+  MOUSE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+W
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - ''
+  - AltGr+F4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
