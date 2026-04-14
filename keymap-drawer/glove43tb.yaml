@@ -65,8 +65,8 @@ layers:
   - '"'
   - (
   - )
-  - '{'
-  - '}'
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -75,8 +75,8 @@ layers:
   - ''
   - ''
   - ':'
-  - <
-  - '>'
+  - '{'
+  - '}'
   - ''
   - ''
   - ''
@@ -119,8 +119,8 @@ layers:
   - ESCAPE
   - ''
   - _
-  - ''
-  - ''
+  - <
+  - '>'
   - ''
   - ''
   - ''
@@ -162,17 +162,17 @@ layers:
   - ''
   - ''
   - Sft+Alt+TAB
-  - Sft+Ctl+LEFT
-  - Sft+Ctl+DOWN
-  - Sft+Ctl+UP ARROW
-  - Sft+Ctl+RIGHT
+  - Ctl+LEFT
+  - Ctl+DOWN
+  - Ctl+UP ARROW
+  - Ctl+RIGHT
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - LEFT SHIFT
   - ''
   - {type: held}
   - ''
@@ -308,14 +308,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
