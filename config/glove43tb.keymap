@@ -92,10 +92,10 @@
 
         NUM_BRACKET {
             bindings = <
-&kp N9        &kp N8        &kp N7        &kp NUMBER_6  &kp N5                            &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none
-&kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &none       &none   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
-&none         &none         &none         &none         &none         &none       &none   &kp COLON          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
-&none         &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                                 &none
+&kp N9        &kp N8        &kp N7        &kp NUMBER_6  &kp N5                          &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none
+&kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &none      &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
+&none         &none         &none         &none         &none         &none      &none  &kp COLON          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
+&none         &none         &none         &none         &none         &none      &none  &none                                                                  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -114,19 +114,19 @@
 
         ARROW {
             bindings = <
-&none         &none      &none      &kp F12    &kp F5                                       &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &none
-&kp LC(A)     &kp LC(S)  &none      &kp LC(F)  &kp F2  &none               &kp RS(RA(TAB))  &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &none
-&kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &none               &none            &kp RC(LEFT)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &none
-&kp LEFT_WIN  &none      &none      &none      &none   &kp LEFT_SHIFT      &none            &none                                                         &none
+&none         &none      &none      &kp F12    &kp F5                                          &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &none
+&kp LC(A)     &kp LC(S)  &none      &kp LC(F)  &kp F2  &none                &kp RC(PAGE_UP)    &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &none
+&kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &kp LS(LA(TAB))      &kp RC(PAGE_DOWN)  &kp RC(LEFT)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &none
+&kp LEFT_WIN  &none      &none      &none      &none   &kp LEFT_SHIFT       &none              &none                                                         &none
             >;
         };
 
         MOUSE {
             bindings = <
-&none  &none  &none  &none  &none                    &none          &none     &none     &none     &none
-&none  &none  &none  &none  &none  &none      &none  &kp PAGE_UP    &mkp MB1  &mkp MB3  &mkp MB2  &none
-&none  &none  &none  &none  &none  &none      &none  &kp PAGE_DOWN  &none     &none     &none     &none
-&none  &none  &none  &none  &none  &none      &none  &none                                        &none
+&none  &none  &none  &none   &none                       &none          &none     &kp LC(W)   &none     &none
+&none  &none  &none  &none   &none   &none       &none   &kp PAGE_UP    &mkp MB1  &mkp MB3    &mkp MB2  &none
+&none  &none  &none  &none   &none   &none       &none   &kp PAGE_DOWN  &none     &kp RA(F4)  &none     &none
+&none  &none  &none  &trans  &trans  &trans      &trans  &trans                                         &none
             >;
         };
     };
