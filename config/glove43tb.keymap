@@ -41,34 +41,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -120,10 +93,10 @@
 
         NUM {
             bindings = <
-&none  &none   &none   &none   &none                       &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none           &none
-&none  &none   &none   &none   &none   &none       &none   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&none  &none   &none   &none   &none   &none       &none   &kp COLON          &kp LESS_THAN         &kp GREATER_THAN       &none           &none
-&none  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                          &none
+&none  &none   &none   &none   &none                       &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none
+&none  &none   &none   &none   &none   &none       &none   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none
+&none  &none   &none   &none   &none   &none       &none   &kp COLON          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none
+&none  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                 &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -131,10 +104,10 @@
 
         SYMBOL_NUM {
             bindings = <
-&kp LCTRL     &kp PERCENT  &kp AMPERSAND  &kp PIPE   &kp EXCLAMATION                         &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&kp ASTERISK  &kp SLASH    &kp PLUS       &kp MINUS  &kp EQUAL        &none           &none  &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
-&kp AT_SIGN   &kp DOLLAR   &kp HASH       &kp TILDE  &none            &kp ESCAPE      &none  &kp UNDERSCORE  &none         &none         &none         &none
-&none         &none        &none          &none      &none            &none           &none  &none                                                     &none
+&kp LCTRL     &kp PERCENT  &kp AMPERSAND  &kp PIPE   &kp EXCLAMATION                         &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9
+&kp ASTERISK  &kp SLASH    &kp PLUS       &kp MINUS  &kp EQUAL        &none           &none  &kp NUMBER_0    &kp NUMBER_1   &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4
+&kp AT_SIGN   &kp DOLLAR   &kp HASH       &kp TILDE  &none            &kp ESCAPE      &none  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &none         &none
+&none         &none        &none          &none      &none            &none           &none  &none                                                          &none
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -142,10 +115,10 @@
 
         ARROW {
             bindings = <
-&none  &none  &none  &none  &kp F5                              &kp HOME          &kp PAGE_DOWN     &kp PAGE_UP           &kp END            &none
-&none  &none  &none  &none  &kp F2  &none      &none            &kp LEFT          &kp DOWN          &kp UP_ARROW          &kp RIGHT          &none
-&none  &none  &none  &none  &none   &none      &kp LS(LA(TAB))  &kp LS(LC(LEFT))  &kp LS(LC(DOWN))  &kp LS(LC(UP_ARROW))  &kp LS(LC(RIGHT))  &none
-&none  &none  &none  &none  &none   &none      &none            &none                                                                        &none
+&none  &none  &none  &none  &kp F5                                       &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &none
+&none  &none  &none  &none  &kp F2  &none               &none            &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &none
+&none  &none  &none  &none  &none   &none               &kp LS(LA(TAB))  &kp RC(LEFT)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &none
+&none  &none  &none  &none  &none   &kp LEFT_SHIFT      &none            &none                                                         &none
             >;
         };
 
