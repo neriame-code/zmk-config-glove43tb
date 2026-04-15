@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - LEFT WIN
-  - ''
+  - LEFT ALT
   - ''
   - {t: TAB, h: NUM_BRACKET}
   - {t: BACKSPACE, h: SYMBOL_NUM}
