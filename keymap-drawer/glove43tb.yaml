@@ -175,7 +175,7 @@ layers:
   - LEFT SHIFT
   - ''
   - {type: held}
-  - ''
+  - BT CLR
   MOUSE:
   - ''
   - ''
