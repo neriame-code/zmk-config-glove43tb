@@ -5,6 +5,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -117,7 +118,7 @@
 &none         &none      &none      &kp F12    &kp F5                                          &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP       &kp END        &none
 &kp LC(A)     &kp LC(S)  &none      &kp LC(F)  &kp F2  &none                &kp RC(PAGE_UP)    &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT      &none
 &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &kp LS(LA(TAB))      &kp RC(PAGE_DOWN)  &kp RC(LEFT)  &kp RC(DOWN)   &kp RC(UP_ARROW)  &kp RC(RIGHT)  &none
-&kp LEFT_WIN  &none      &none      &none      &none   &kp LEFT_SHIFT       &none              &none                                                         &none
+&kp LEFT_WIN  &none      &none      &none      &none   &kp LEFT_SHIFT       &none              &none                                                         &bt BT_CLR
             >;
         };
 
