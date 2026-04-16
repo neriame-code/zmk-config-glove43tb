@@ -106,7 +106,7 @@
 
         SYMBOL_NUM {
             bindings = <
-&kp LCTRL     &kp PERCENT  &kp AMPERSAND  &kp PIPE   &kp EXCLAMATION                         &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9
+&kp CARET     &kp PERCENT  &kp AMPERSAND  &kp PIPE   &kp EXCLAMATION                         &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9
 &kp ASTERISK  &kp SLASH    &kp PLUS       &kp MINUS  &kp EQUAL        &none           &none  &kp NUMBER_0    &kp NUMBER_1   &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4
 &kp AT_SIGN   &kp DOLLAR   &kp HASH       &kp TILDE  &none            &kp ESCAPE      &none  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &none         &none
 &none         &none        &none          &none      &none            &none           &none  &none                                                          &none
@@ -130,6 +130,15 @@
 &none  &none  &none  &none   &none   &none       &none   &kp PAGE_UP    &mkp MB1  &mkp MB3    &mkp MB2  &none
 &none  &none  &none  &none   &none   &none       &none   &kp PAGE_DOWN  &none     &kp RA(F4)  &none     &none
 &none  &none  &none  &trans  &trans  &trans      &trans  &trans                                         &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
