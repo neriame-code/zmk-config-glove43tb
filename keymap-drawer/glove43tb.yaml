@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: LEFT SHIFT}
   - {t: SPACE, h: RIGHT SHIFT}
   - {t: ENTER, h: ARROW}
-  - PRINTSCREEN
+  - '&tog_ls'
   NUM_BRACKET:
   - '9'
   - '8'
@@ -131,7 +131,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR
   ARROW:
   - ''
   - ''
@@ -175,7 +175,7 @@ layers:
   - LEFT SHIFT
   - ''
   - {type: held}
-  - BT CLR
+  - PRINTSCREEN
   MOUSE:
   - ''
   - ''
